@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://proplumb.com/sitemap.xml
+Sitemap: https://8d2472d3.proplumb-6s1.pages.dev/sitemap.xml
