@@ -1,4 +1,3 @@
-import { Droplets } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { SITE } from '../../data/siteConfig'
 import { NAV_LINKS } from '../../utils/constants'
@@ -25,21 +24,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-10">
-          <div className="col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="h-9 w-9 rounded-full bg-primary flex items-center justify-center">
-                <Droplets className="h-5 w-5 text-deep" strokeWidth={2.4} />
-              </span>
-              <span className="font-display font-bold text-lg">{SITE.name}</span>
-            </div>
-            <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-              Gas Safe registered plumbing professionals serving Rothesay, Port Bannatyne, and the wider Isle of Bute.
-            </p>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-white/30 mt-6">{SITE.license}</p>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-white/30 mt-2">Co. Reg. SC838013</p>
-          </div>
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           <div>
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-primary mb-4">Services</p>
             <ul className="space-y-2.5">

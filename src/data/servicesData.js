@@ -120,4 +120,8 @@ export const TRUST_BADGES = [
     title: 'Isle of Bute Based',
     text: 'Locally based in Rothesay, serving Port Bannatyne and the wider Isle of Bute. We know the local area and its plumbing needs.',
   },
+  {
+    title: 'Fully Insured',
+    text: 'Fully insured for your protection. We carry comprehensive public liability insurance on every job we undertake.',
+  },
 ]

@@ -3,6 +3,7 @@ import { PILLARS } from '../../data/servicesData'
 import { ArrowRight } from 'lucide-react'
 import { ShieldCheck, Award, Clock } from 'lucide-react'
 import { TRUST_BADGES } from '../../data/servicesData'
+import Testimonials from './Testimonials'
 
 /* ----------------------------------------------------------------
    CountUp — animated counter
@@ -195,6 +196,7 @@ export default function WhyUs() {
   return (
     <>
       <Pillars />
+      <Testimonials />
       <TrustSignals />
     </>
   )

@@ -2,6 +2,7 @@ export const NAV_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'Services', href: '#services' },
   { label: 'Why Us', href: '#why-us' },
+  { label: 'Reviews', href: '#testimonials' },
   { label: 'Process', href: '#process' },
   { label: 'Contact', href: '#contact' },
 ]
