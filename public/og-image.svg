@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0F1419"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grad)"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1419"/>
+      <stop offset="100%" stop-color="#1a2a35"/>
+    </linearGradient>
+  </defs>
+  <!-- Water droplet icon -->
+  <circle cx="600" cy="220" r="80" fill="#85c4eb" fill-opacity="0.15"/>
+  <path d="M600 160 C580 200, 540 260, 540 300 a60 60 0 0 0 120 0 C660 260, 620 200, 600 160Z" fill="#85c4eb"/>
+  <ellipse cx="580" cy="290" rx="12" ry="20" fill="white" fill-opacity="0.4"/>
+  <!-- Text -->
+  <text x="600" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="56" font-weight="800" fill="white">ProPlumb</text>
+  <text x="600" y="450" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#85c4eb">Professional Plumbing Services</text>
+  <text x="600" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff80">Licensed &amp; Insured · 15+ Years · 24/7 Emergency</text>
+</svg>
