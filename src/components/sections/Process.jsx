@@ -54,7 +54,7 @@ export default function Process() {
               <div className="lg:col-span-3 p-8 sm:p-12 lg:p-16 flex flex-col justify-between">
                 <div className="flex items-center justify-between">
                   <span className="font-mono text-xs uppercase tracking-[0.25em] text-muted">{step.meta}</span>
-                  <span className="font-mono text-[10px] uppercase tracking-widest text-primary-dark bg-primary/10 px-2.5 py-1 rounded-full">ProPlumb Protocol</span>
+                   <span className="font-mono text-[10px] uppercase tracking-widest text-primary-dark bg-primary/10 px-2.5 py-1 rounded-full">Bute Plumbing Process</span>
                 </div>
                 <div className="my-12">
                   <span className="font-display font-extrabold text-[7rem] sm:text-[10rem] leading-none text-primary/15 -mb-4 block">{step.num}</span>
@@ -70,7 +70,7 @@ export default function Process() {
                   <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                   <span className="font-mono text-[10px] uppercase tracking-widest text-ink">Step {step.num}</span>
                 </div>
-                <div className="absolute bottom-4 right-4 font-mono text-[10px] uppercase tracking-widest text-white/70">{step.num} / ProPlumb</div>
+                <div className="absolute bottom-4 right-4 font-mono text-[10px] uppercase tracking-widest text-white/70">{step.num} / Bute Plumbing</div>
               </div>
             </div>
           </article>

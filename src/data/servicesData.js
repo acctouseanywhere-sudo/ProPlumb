@@ -14,7 +14,7 @@ export const SERVICES = [
   {
     icon: Wrench,
     title: 'Emergency Repairs',
-    text: '24/7 emergency plumbing services. Leaks, burst pipes, and urgent fixes — we respond fast when you need us most.',
+    text: 'Fast-response plumbing repairs for leaks, burst pipes, and urgent issues. Available Mon–Fri, 7am–5pm.',
   },
   {
     icon: Hammer,
@@ -43,7 +43,7 @@ export const FEATURES = [
   {
     eyebrow: '02 / Response',
     heading: 'Emergency Service',
-    sub: '24/7 available',
+    sub: 'Mon–Fri, 7am–5pm',
     text: 'Burst pipes, severe leaks, and plumbing emergencies. We respond fast and fix it right.',
   },
   {
@@ -61,23 +61,23 @@ export const PILLARS = [
     target: 15,
     suffix: '+',
     label: 'years in business',
-    desc: 'Over a decade of reliable plumbing services. We have seen and solved every type of plumbing challenge.',
+    desc: 'Experienced plumbing professionals. We have seen and solved every type of plumbing challenge on the Isle of Bute.',
   },
   {
     n: '02',
     title: 'Certification',
     target: 100,
     suffix: '%',
-    label: 'licensed & insured',
-    desc: 'Fully licensed and insured plumbing company. We meet all state and local requirements for your protection.',
+    label: 'Gas Safe registered',
+    desc: 'Gas Safe registered and fully insured. We meet all UK safety requirements for your protection.',
   },
   {
     n: '03',
     title: 'Response',
-    target: 24,
-    suffix: '/7',
-    label: 'emergency service',
-    desc: 'Round-the-clock emergency service. When disaster strikes, we are just a phone call away.',
+    target: 5,
+    suffix: '/5',
+    label: 'days a week',
+    desc: 'Available Monday to Friday, 7am–5pm. Book ahead — we work around your schedule.',
   },
 ]
 
@@ -113,15 +113,11 @@ export const STEPS = [
 
 export const TRUST_BADGES = [
   {
-    title: 'Licensed & Insured',
-    text: 'Fully licensed plumbing professionals. We meet all state requirements for your protection and peace of mind.',
+    title: 'Gas Safe Registered',
+    text: 'Fully Gas Safe registered plumbing professionals. We meet all UK safety requirements for your protection and peace of mind.',
   },
   {
-    title: 'Top Rated Service',
-    text: 'Consistently rated 5-stars by our customers. We earn your trust through quality work and honest pricing.',
-  },
-  {
-    title: '15+ Years Experience',
-    text: 'Over a decade of reliable service. We have seen it all and fixed it all — with professionalism.',
+    title: 'Isle of Bute Based',
+    text: 'Locally based in Rothesay, serving Port Bannatyne and the wider Isle of Bute. We know the local area and its plumbing needs.',
   },
 ]

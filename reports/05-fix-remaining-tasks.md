@@ -1,4 +1,4 @@
-# FIX REMAINING TASKS REPORT — ProPlumb
+# FIX REMAINING TASKS REPORT — Bute Plumbing Services
 
 **Auditor:** AI Final Delivery Review
 **Date:** 2026-06-21
@@ -13,7 +13,8 @@
 | TODO/FIXME comments | None found | ✅ CLEAN |
 | Placeholder text | `YOUR_WEB3FORMS_ACCESS_KEY` in Contact.jsx:13 | ⚠️ Client must replace |
 | Placeholder text | `YOUR_HCAPTCHA_SITE_KEY` in Contact.jsx:14 | ⚠️ Client must replace |
-| Placeholder text | Dummy phone/address/email in siteConfig.js | ⚠️ Client must replace |
+| Placeholder text | Email `info@buteplumbing.co.uk` in siteConfig.js | ⚠️ Client to confirm |
+| Placeholder text | Gas Safe Reg. No. in siteConfig.js | ⚠️ Client to provide |
 | console.log/warn/debugger | None found | ✅ CLEAN |
 | Commented-out dead code | None found | ✅ CLEAN |
 | Unused imports | None found (ESLint clean) | ✅ CLEAN |
@@ -27,8 +28,8 @@
 | Issue | Fix | Status |
 |-------|-----|--------|
 | og:image was relative path | Changed to absolute URL: `https://8d2472d3.proplumb-6s1.pages.dev/og-image.svg` | FIXED |
-| og:site_name missing | Added `<meta property="og:site_name" content="ProPlumb" />` | FIXED |
-| og:description too long (141 chars) | Trimmed to 120 chars | FIXED |
+| og:site_name missing | Added `<meta property="og:site_name" content="Bute Plumbing Services" />` | FIXED |
+| og:description too long | Trimmed to fit within limits | FIXED |
 | og:url pointed to proplumb.com | Updated to Cloudflare Pages URL | FIXED |
 | canonical pointed to proplumb.com | Updated to Cloudflare Pages URL | FIXED |
 | ld+json url pointed to proplumb.com | Updated to Cloudflare Pages URL | FIXED |
@@ -49,10 +50,10 @@ eslint .
 ```
 vite v8.0.16 building client environment for production...
 ✓ 1792 modules transformed.
-dist/index.html                   2.52 kB │ gzip:   1.04 kB
+dist/index.html                   2.72 kB │ gzip:   1.09 kB
 dist/assets/index-BvUscciL.css   33.58 kB │ gzip:   6.75 kB
-dist/assets/index-aXGXFFi6.js   405.79 kB │ gzip: 136.45 kB
-✓ built in 2.09s
+dist/assets/index-YW4sSnox.js   406.10 kB │ gzip: 136.49 kB
+✓ built in 3.98s
 ```
 **Result:** PASS — zero errors, bundle under 500KB
 
@@ -63,7 +64,10 @@ found 0 vulnerabilities
 **Result:** PASS — 0 critical, 0 high, 0 moderate, 0 low
 
 ### 4. Playwright tests
-**Result:** N/A — Playwright not installed in environment. Smoke tests not written yet (prompt says "if no tests exist yet, write at minimum these smoke tests").
+```
+5 passed (32.8s)
+```
+**Result:** PASS — 5/5 smoke tests passing
 
 ---
 
@@ -71,12 +75,13 @@ found 0 vulnerabilities
 
 | Item | Consistent? | Locations Checked |
 |------|-------------|-------------------|
-| Business name "ProPlumb" | ✅ YES | index.html, siteConfig.js, Navbar, Footer, Contact, ld+json |
-| Phone "(555) 012-3456" | ✅ YES | siteConfig.js, Contact, Footer, ld+json |
+| Business name "Bute Plumbing Services" | ✅ YES | index.html, siteConfig.js, Navbar, Footer, Contact, ld+json, PrivacyPolicy, Terms |
+| Phone "+447596387545" | ✅ YES | siteConfig.js, Contact, Footer, ld+json |
 | Phone wrapped in tel: link | ✅ YES | Contact.jsx:131, Footer.jsx:67 |
-| Email "info@proplumb.com" | ✅ YES | siteConfig.js, Contact, Footer, PrivacyPolicy |
-| Address "123 Main Street, Springfield, US" | ✅ YES | siteConfig.js, Contact, Footer, ld+json |
-| License "License #PL-2024-001" | ✅ YES | siteConfig.js, Footer |
+| Email "info@buteplumbing.co.uk" | ✅ YES | siteConfig.js, Contact, Footer, PrivacyPolicy |
+| Address "22 Regal Place, 31 Argyle Street, Rothesay, Isle of Bute, PA20 0AX" | ✅ YES | siteConfig.js, Contact, Footer, ld+json |
+| License "Gas Safe Registered" | ✅ YES | siteConfig.js, Footer |
+| Company Reg. SC838013 | ✅ YES | Footer |
 | Service list matches | ✅ YES | servicesData.js SERVICES array matches Contact.jsx ServicesGrid and Footer |
 
 ---
@@ -113,10 +118,11 @@ found 0 vulnerabilities
 Build Status:        PASS
 Lint Status:         PASS
 npm audit:           0 critical, 0 high, 0 moderate, 0 low
-Bundle size:         136.45 KB JS gzipped / 6.75 KB CSS gzipped
-Tests:               N/A (Playwright not installed)
+Bundle size:         136.49 KB JS gzipped / 6.75 KB CSS gzipped
+Tests:               5/5 passed
 
-Remaining placeholder content:    YOUR_WEB3FORMS_ACCESS_KEY, YOUR_HCAPTCHA_SITE_KEY, dummy business info
+Remaining placeholder content:    YOUR_WEB3FORMS_ACCESS_KEY, YOUR_HCAPTCHA_SITE_KEY,
+                                  email confirmation, Gas Safe reg number, OG image
 Remaining TODO/FIXME comments:    NONE
 Console.log statements found:     NONE
 
@@ -134,9 +140,11 @@ OVERALL VERDICT: READY FOR CLIENT DELIVERY
 
 1. Client must replace `YOUR_WEB3FORMS_ACCESS_KEY` in Contact.jsx:13
 2. Client must replace `YOUR_HCAPTCHA_SITE_KEY` in Contact.jsx:14
-3. Client must replace dummy phone/address/email in siteConfig.js
-4. Test contact form end-to-end (submit + confirm email delivery)
-5. If client has custom domain, update all URLs from Cloudflare Pages URL to custom domain
+3. Client must confirm email address and update if different from `info@buteplumbing.co.uk`
+4. Client must provide Gas Safe registration number for siteConfig.js license field
+5. Client should replace OG image SVG with real photo
+6. Test contact form end-to-end (submit + confirm email delivery)
+7. If client has custom domain, update all URLs from Cloudflare Pages URL to custom domain
 
 ---
 

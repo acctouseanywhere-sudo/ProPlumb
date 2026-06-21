@@ -1,4 +1,4 @@
-# SECURITY CHECK REPORT — ProPlumb
+# SECURITY CHECK REPORT — Bute Plumbing Services
 
 **Auditor:** AI Security Review
 **Date:** 2026-06-21
@@ -97,7 +97,7 @@
 | No .env or .git in dist/ | PASS | dist/ | No fix needed |
 | Source maps: Vite default (not generated for production) | PASS | vite.config.js | No fix needed |
 | No console.logs or debug flags in build | PASS | dist/ | No fix needed |
-| Bundle: 405.79 KB JS, 33.58 KB CSS (136.45 KB / 6.75 KB gzipped) | INFO | dist/assets/ | Under 500KB threshold |
+| Bundle: 406.10 KB JS, 33.58 KB CSS (136.49 KB / 6.75 KB gzipped) | INFO | dist/assets/ | Under 500KB threshold |
 
 **Verdict:** No issues found.
 

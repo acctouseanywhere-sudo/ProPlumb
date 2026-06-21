@@ -268,7 +268,7 @@ function ContactForm() {
         {/* ponytail: static embed, swap query for real address */}
         <div className="mt-16 rounded-3xl overflow-hidden border border-divider shadow-lg shadow-primary/5">
           <iframe
-            title="ProPlumb service area"
+            title="Bute Plumbing Services service area"
             src={MAP_EMBED}
             width="100%"
             height="400"
@@ -313,7 +313,7 @@ function ServicesGrid() {
           eyebrow="Everything We Offer"
           title="Full range,"
           titleAccent="under one roof."
-          description="We handle jobs of all sizes — residential and commercial. Serving the greater metro area."
+          description="We handle jobs of all sizes — residential and commercial. Serving Rothesay, Port Bannatyne, and the wider Isle of Bute."
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10 rounded-4xl overflow-hidden">
           {SERVICES.map((svc, i) => (

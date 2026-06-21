@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test'
 
-test.describe('ProPlumb Smoke Tests', () => {
+test.describe('Bute Plumbing Smoke Tests', () => {
   test('page loads without console errors', async ({ page }) => {
     const errors = []
     page.on('pageerror', (err) => errors.push(err.message))
     await page.goto('/')
-    await expect(page).toHaveTitle(/ProPlumb/)
+    await expect(page).toHaveTitle(/Bute Plumbing/)
     expect(errors).toEqual([])
   })
 

@@ -19,7 +19,7 @@ export default function Footer() {
           </h2>
           <div className="flex flex-col sm:flex-row sm:items-end justify-between mt-8 gap-6">
             <p className="text-white/50 max-w-md">
-              {SITE.name} — serving the greater metro area with reliable, professional plumbing services.
+              {SITE.name} — serving Rothesay, Port Bannatyne, and the wider Isle of Bute with reliable, professional plumbing services.
             </p>
             <ButtonPrimary href="#contact" className="self-start sm:self-auto">Get a Quote</ButtonPrimary>
           </div>
@@ -34,9 +34,10 @@ export default function Footer() {
               <span className="font-display font-bold text-lg">{SITE.name}</span>
             </div>
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-              Licensed plumbing professionals with over 15 years of experience in residential and commercial services.
+              Gas Safe registered plumbing professionals serving Rothesay, Port Bannatyne, and the wider Isle of Bute.
             </p>
             <p className="font-mono text-[10px] uppercase tracking-widest text-white/30 mt-6">{SITE.license}</p>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-white/30 mt-2">Co. Reg. SC838013</p>
           </div>
 
           <div>

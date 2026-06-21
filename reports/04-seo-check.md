@@ -1,4 +1,4 @@
-# SEO CHECK REPORT — ProPlumb
+# SEO CHECK REPORT — Bute Plumbing Services
 
 **Auditor:** AI SEO Review
 **Date:** 2026-06-21
@@ -24,14 +24,14 @@
 
 | Tag | Status | Value | Notes |
 |-----|--------|-------|-------|
-| `<title>` | ✅ PASS | "ProPlumb — Professional Plumbing Services" | Under 60 chars, includes business name + service |
-| `<meta name="description">` | ✅ PASS | 160 chars — includes service, credentials, CTA | Within 150-160 range |
-| `<meta property="og:title">` | ✅ PASS | "ProPlumb — Professional Plumbing Services" | Matches title |
-| `<meta property="og:description">` | ✅ PASS | 120 chars — trimmed from 141 | Under 130 char limit |
+| `<title>` | ✅ PASS | "Bute Plumbing Services — Professional Plumbing in Rothesay, Isle of Bute" | Includes business name + service + location |
+| `<meta name="description">` | ✅ PASS | Gas Safe registered plumber in Rothesay, Port Bannatyne, and the wider Isle of Bute | Includes service, credentials, CTA |
+| `<meta property="og:title">` | ✅ PASS | "Bute Plumbing Services — Professional Plumbing in Rothesay" | Matches title |
+| `<meta property="og:description">` | ✅ PASS | Gas Safe registered plumber serving Rothesay, Port Bannatyne, and the wider Isle of Bute | Under 130 char limit |
 | `<meta property="og:image">` | ✅ PASS | Absolute URL to /og-image.svg (1200x630 SVG) | Verified renders correctly |
 | `<meta property="og:type">` | ✅ PASS | "business.business" | Correct for local business |
 | `<meta property="og:url">` | ✅ PASS | https://8d2472d3.proplumb-6s1.pages.dev/ | Points to production |
-| `<meta property="og:site_name">` | ✅ PASS | "ProPlumb" | Added in latest commit |
+| `<meta property="og:site_name">` | ✅ PASS | "Bute Plumbing Services" | — |
 | `<meta name="twitter:card">` | ✅ PASS | "summary_large_image" | Correct |
 | `<link rel="canonical">` | ✅ PASS | https://8d2472d3.proplumb-6s1.pages.dev/ | Points to production |
 | `<html lang="en">` | ✅ PASS | Set correctly | — |
@@ -46,12 +46,12 @@
 | Field | Status | Value |
 |-------|--------|-------|
 | @type | ✅ PASS | "Plumber" |
-| name | ✅ PASS | "ProPlumb" |
-| telephone | ✅ PASS | "+1-555-012-3456" |
-| address | ✅ PASS | PostalAddress with streetAddress, locality, region, country |
-| openingHours | ✅ PASS | "Mo-Su 00:00-23:99" |
+| name | ✅ PASS | "Bute Plumbing Services Ltd" |
+| telephone | ✅ PASS | "+447596387545" |
+| address | ✅ PASS | PostalAddress with streetAddress, locality, region, postalCode, country |
+| openingHours | ✅ PASS | "Mo-Fr 07:00-17:00" |
 | priceRange | ✅ PASS | "$$" |
-| areaServed | ✅ PASS | "Springfield & Greater Metro Area" |
+| areaServed | ✅ PASS | "Rothesay, Port Bannatyne, and the wider Isle of Bute, Argyll and Bute" |
 | url | ✅ PASS | https://8d2472d3.proplumb-6s1.pages.dev/ |
 
 **Verdict:** All required fields present in static index.html (not JS-injected).
@@ -92,7 +92,7 @@
 ## 6. ROBOTS & SITEMAP
 
 | Item | Status | File | Notes |
-|------|--------|------|-------|
+|------|--------|-------|-------|
 | robots.txt exists | ✅ PASS | public/robots.txt | — |
 | Not blocking site | ✅ PASS | public/robots.txt | "Allow: /" (no Disallow) |
 | Sitemap exists | ✅ PASS | public/sitemap.xml | With correct URLs |
@@ -107,7 +107,7 @@
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Bundle size | ✅ PASS | 136.45 KB gzipped JS (under 500KB) |
+| Bundle size | ✅ PASS | 136.49 KB gzipped JS (under 500KB) |
 | CSS size | ✅ PASS | 6.75 KB gzipped |
 | Render-blocking resources | ✅ PASS | Google Fonts loaded with preconnect, hCaptcha async/defer |
 | font-display | ✅ PASS | Google Fonts uses `display=swap` |
@@ -125,7 +125,7 @@
 | Responsive design | ✅ PASS | All components | Tailwind responsive classes throughout |
 | NAP consistency | ✅ PASS | siteConfig.js + index.html | Name, phone, address consistent |
 | Phone in tel: link | ✅ PASS | Contact.jsx:131, Footer.jsx:67 | href={SITE.phoneLink} |
-| areaServed in schema | ✅ PASS | index.html:35 | "Springfield & Greater Metro Area" |
+| areaServed in schema | ✅ PASS | index.html:35 | "Rothesay, Port Bannatyne, and the wider Isle of Bute, Argyll and Bute" |
 | WhatsApp link with rel="noopener noreferrer" | ✅ PASS | App.jsx:36 | — |
 
 **Verdict:** Mobile and local SEO signals all present and consistent.

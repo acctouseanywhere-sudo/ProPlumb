@@ -1,14 +1,14 @@
 export const SITE = {
-  name: 'ProPlumb',
+  name: 'Bute Plumbing Services',
   tagline: 'Professional Plumbing You Can Trust.',
-  description: 'Over 15 years of reliable plumbing services. Licensed, insured, and committed to quality.',
-  phone: '(555) 012-3456',
-  phoneLink: 'tel:+15550123456',
-  email: 'info@proplumb.com',
-  emailLink: 'mailto:info@proplumb.com',
-  address: '123 Main Street, Springfield, US',
-  license: 'License #PL-2024-001',
-  whatsapp: 'https://wa.me/15550123456',
+  description: 'Gas Safe registered plumbing services in Rothesay, Port Bannatyne, and across the Isle of Bute. Reliable, professional, and committed to quality.',
+  phone: '07596 387545',
+  phoneLink: 'tel:+447596387545',
+  email: 'info@buteplumbing.co.uk', // TODO: client to confirm email
+  emailLink: 'mailto:info@buteplumbing.co.uk', // TODO: client to confirm email
+  address: '22 Regal Place, 31 Argyle Street, Rothesay, Isle of Bute, PA20 0AX',
+  license: 'Gas Safe Registered — Reg. No. [TODO: client to provide]',
+  whatsapp: 'https://wa.me/447596387545',
   year: 2026,
 }
 

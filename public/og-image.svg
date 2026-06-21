@@ -12,7 +12,7 @@
   <path d="M600 160 C580 200, 540 260, 540 300 a60 60 0 0 0 120 0 C660 260, 620 200, 600 160Z" fill="#85c4eb"/>
   <ellipse cx="580" cy="290" rx="12" ry="20" fill="white" fill-opacity="0.4"/>
   <!-- Text -->
-  <text x="600" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="56" font-weight="800" fill="white">ProPlumb</text>
-  <text x="600" y="450" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#85c4eb">Professional Plumbing Services</text>
-  <text x="600" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff80">Licensed &amp; Insured · 15+ Years · 24/7 Emergency</text>
+  <text x="600" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="48" font-weight="800" fill="white">Bute Plumbing Services</text>
+  <text x="600" y="450" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#85c4eb">Professional Plumbing in Rothesay, Isle of Bute</text>
+  <text x="600" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff80">Gas Safe Registered · Mon–Fri 7am–5pm</text>
 </svg>
